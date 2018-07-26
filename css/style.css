@@ -11456,6 +11456,7 @@ ol.commentlist li::after {
 	position:absolute;
 }
 .flip-container .wt-info .wt-info-text{
+	top: 35%;
 	bottom:0px;
 	left:0px;
 	width:100%;
