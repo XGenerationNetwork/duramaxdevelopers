@@ -11853,7 +11853,7 @@ ol.commentlist li::after {
 	display:none;
 }
 .whychoosebox {
-	min-height: 260px;
+	min-height: 260px !important;
 }
 .wt-icon-box-wraper {
 	min-height: 95px;
