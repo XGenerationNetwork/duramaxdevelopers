@@ -11855,3 +11855,6 @@ ol.commentlist li::after {
 .whychoosebox {
 	min-height: 260px;
 }
+.wt-icon-box-wraper {
+	min-height: 90px;
+}
