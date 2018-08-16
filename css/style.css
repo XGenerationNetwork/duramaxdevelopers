@@ -8683,7 +8683,7 @@ header .logo{
 @media only screen and (max-width: 991px) {
 .is-fixed .header-nav .nav{
 	overflow:auto;
-	height:275px;
+	height:135px;
 }	
 .is-fixed .header-nav .nav > li > a {
 	padding:12px 15px;

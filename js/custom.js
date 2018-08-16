@@ -706,7 +706,22 @@ All JavaScript fuctions Start
 
 /*===========================
 	Document on  Submit FUNCTION END
-===========================*/	
+===========================*/
 
+/*===========================
+	Hide mobile nav when clicked FUNCTION START
+===========================*/	
+	
+	jQuery(document).click(function (event) {
+		var clickover = $(event.target);
+		var $navbar = $(".navbar-collapse");               
+		var _opened = $navbar.hasClass("in");
+		if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+			$navbar.collapse('hide');
+		}
+	});
+/*===========================
+Hide mobile nav when clicked FUNCTION END
+===========================*/	
 
 })(window.jQuery);
